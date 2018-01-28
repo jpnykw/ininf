@@ -360,7 +360,7 @@ function outputToDisplay(){
 		userDatasDisplay[3].innerText=' : '+fixFloatPoint(tempMax-minus);
 		userDatasDisplay[4].innerText=' : '+fixFloatPoint(tempMin-minus);
 		userDatasDisplay[5].innerText=' : '+windSpeed;
-		userDatasDisplay[6].innerText=' : '+windDeg;
+		userDatasDisplay[6].innerText=' : '+(windDeg==void(0)?'None':windDeg);
 }
 
 function fixFloatPoint(input){
